@@ -1,0 +1,25 @@
+
+public class Member {
+	String name;
+	int point;
+	
+	Member(){
+		this.name="未登録";
+		this.point=0;
+	}
+	
+	Member(String name){
+		this.name=name;
+		this.point=0;
+	}
+	
+	Member(String name,int point){
+		this.name=name;
+		this.point=point;
+	}
+	
+	void showInfo() {
+		System.out.println("会員名："+this.name);
+		System.out.println("ポイント数："+this.point);
+	}
+}
